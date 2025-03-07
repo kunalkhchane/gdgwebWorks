@@ -169,22 +169,6 @@ app.listen(5000, () => console.log("Server running on port 5000"));
 
 ---
 
-## Folder Structure
 
-```
-Project Folder
-├── model.js        # MongoDB Schema
-├── server.js      # Node.js Backend
-├── index.html     # Frontend
-└── .env           # MongoDB URI
-```
 
----
 
-## Conclusion
-
-This project demonstrates how to integrate frontend, backend, and database in a web application. It shows how user data is processed and stored efficiently using modern technologies.
-
----
-
-Feel free to modify and extend this code for your projects!
