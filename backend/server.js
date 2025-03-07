@@ -15,12 +15,12 @@ mongoose.connect(process.env.MONGO_URI)
     .catch((err) => console.log(err));
 
 app.post("/submit", async (req, res) => {
-    const { name, email, password, query } = req.body;
+    const { name, email, number, query } = req.body;
 
     const form = new Form({
         name,
         email,
-        password,
+        number,
         query
     });
 
